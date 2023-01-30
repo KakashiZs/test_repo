@@ -14,5 +14,7 @@ module.exports = async (req, res) => {
 
   const resu = await Cat.find()
 
+  console.log(resu);
+
   res.status(200).json(resu);
 };
