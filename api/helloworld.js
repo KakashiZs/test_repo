@@ -1,4 +1,3 @@
-import { VercelRequest, VercelResponse } from "@vercel/node";
 module.exports = async (req, res) => {
   const data = {
     msg: "hello world!",
